@@ -1,0 +1,19 @@
+body {
+    background-image: url("./img/field.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.soccerPlayer {
+    width: 200px;
+    position: relative;
+}
+
+.stopBtn {
+    background-color: red;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 10px;
+}

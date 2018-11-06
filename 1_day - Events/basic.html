@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet " href="./basic.css ">
+</head>
+
+<body>
+
+    <button type="button" onclick='toggle()' class="btn btn-primary ">Klikni me!</button>
+
+
+    <button type="button" onclick='toggleAuto()' class="btn btn-primary ">Toggle Auto</button>
+
+
+
+    <script>
+
+        function toggle() {
+            document.querySelector('body').classList.toggle('promenaBoje');
+
+        }
+        var hasRunningInterval;
+        function toggleAuto() {
+            if (!hasRunningInterval) {
+                hasRunningInterval = setInterval(toggle, 500);
+            } else {
+                clearInterval(hasRunningInterval);
+                hasRunningInterval = null;
+            }
+        }
+
+    </script>
+</body>
+
+</html>
