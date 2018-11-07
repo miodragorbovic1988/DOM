@@ -2,15 +2,16 @@
 // setInterval(function(){ alert("Hello"); }, 3000);
 
 
-var $getMario =  querySelector('.mario');
+var $getMario = querySelector('.mario');
 var $getBody = querySelector('body');
-$getBody.addEventListener('keypress', moveBody);
- 
-function moveBody(e) {
-    
-        if (e.keycode === 32) {
-    $getMario.src = "./images/mario.running.gif";
-        }
+
+
+
+function moveBody() {
+
+
+    $getMario.src = "./images/mario_running.gif";
+
 
 
     // var x = event.clientX;
@@ -18,7 +19,10 @@ function moveBody(e) {
 
     // $getMario.style.left = x - 100 + 'px';
     // $getMario.style.top = y - 100 + 'px';
-} 
+}
+
+$getBody.addEventListener('keydown', moveBody);
+
 
 
 // document.addEventListener('keypress', taster);
