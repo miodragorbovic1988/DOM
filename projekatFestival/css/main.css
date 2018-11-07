@@ -1,0 +1,48 @@
+form {
+    
+    width: 100%;
+    border: 1px solid gray;
+    padding: 2%;
+    border-radius: 10px;
+}
+.title-error,
+.length-error,
+.select-error,
+.same-movie,
+.date-error,
+.name-error{
+    color:red;
+}
+
+button{
+    width: 100%;
+}
+select{
+    width: 100%;
+    margin-bottom: 5%;
+}
+ul{
+    margin-top:5%;
+
+}
+li:nth-child(odd){
+    background-color: #eee;
+}
+li{
+    padding: 1%;
+    list-style: none;
+}
+section{
+    padding: 3%;
+    margin: 5% auto 1% ;
+    border: 1px solid grey;
+    border-radius: 15px;
+    
+}
+h3{
+    font-size: 16px;
+}
+#movieSelect,
+#programSelect{
+    margin-bottom: 5%;
+}
