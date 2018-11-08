@@ -1,0 +1,35 @@
+form {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: left;
+  margin: 5%;
+}
+#lengthSum {
+  float: right;
+}
+
+li:nth-of-type(odd) {
+  background-color: #e2e2e2c2;
+  border: none;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+.movie-festival {
+  border: 1px solid;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 5% auto;
+}
+
+.alert-border {
+    border: 2px solid red;
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,26 @@
+.card-img{
+height: 350px;
+    
+}
+
+.card-float-right{
+    float: right;
+}
+
+.card-float-left {
+    float: left;
+}
+
+header {
+    text-align: center;
+}
+.rowSelect {
+    padding:10px;
+    background-color: rgb(247, 244, 244);
+}
+input {
+    margin:5px;
+}
+.col-2, .col-1, .col-3, .col-4{
+    margin: 5px;
+}
